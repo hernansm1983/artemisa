@@ -50,10 +50,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre Mí</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+          <li><a class="nav-link scrollto" href="#services">Tecnologías</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">CV</a></li>
-         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+        <!--   <li><a class="nav-link scrollto" href="#team">CV</a></li>
+         <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -99,7 +99,25 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+
+            <div class="container">
+
+
+
+            <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/team/foto_perfil.jpg" alt="">
+              <h4>Hernán Diego San Martín</h4>
+              <span>Php Ssr Developer</span>
+              <p>
+                Cuando uno ama lo que hace el trabajo resulta divertido
+              </p>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/hernan-diego-san-martin/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+            </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
             <h3>Mi nombre es Hernán Diego San Martín</h3>
@@ -210,48 +228,76 @@
         </div>
 
         <div class="row portfolio-container">
-          
-          <!-- MINI-INSTAGRAM -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/mini-instagram.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/mini-instagram.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Web 1</a></h3>
-                <div>
-                  <a href="assets/img/portfolio/mini-instagram.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- BLOG -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
-              dsfjdfs dsjfl jsdlfkjlsdjf jsldjfljdslfjdsfjlf
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/blog.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3">Web 3</a></h3>
-                <div>
-                  <a href="assets/img/portfolio/blog.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- METAL-WARRIORS -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/metal-warriors.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/metal-warriors.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2">Web 2</a></h3>
+                <h3><a href="assets/img/portfolio/metal-warriors.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Metal Warriors</a></h3>
                 <div>
-                  <a href="assets/img/portfolio/metal-warriors.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                  <a href="assets/img/portfolio/metal-warriors.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
+                  <a href="https://artemisa.alwaysdata.net/metal-warriors/" target="_blank" title="Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
+            </div>
+            <div class="portfolio-description">
+              <ul>
+                <li>HTML5</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>CSS3</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- MINI-INSTAGRAM -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/mini-instagram.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/mini-instagram.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Mini Instagram</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/mini-instagram.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
+                  <a href="https://artemisa.alwaysdata.net/mini-instagram/public/" target="_blank" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-description">
+              <ul>
+                <li>Laravel</li>
+                <li>Bootstrap</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+
+
+          <!-- BLOG -->          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/blog.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Blog</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/blog.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
+                  <a href="https://artemisa.alwaysdata.net/blog/index.php" target="_blank" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-description">
+              <ul>
+                <li>HTML5</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>CSS3</li>
+              </ul>
             </div>
           </div>
 
@@ -265,61 +311,109 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
+          <h2>Preguntas Frequentes</h2>
         </div>
 
         <ul class="faq-list">
 
           <li>
-            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Porque elegir un desarrollo personalizado VS un Template? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
+              <p>Elegir un desarrollo personalizado para tu sitio web ofrece una serie de ventajas significativas
+                 sobre el uso de un template predefinido. Aquí te explico algunas razones por las que podría ser 
+                 la mejor opción para tu emprendimiento:</p>
+                 <br/>
+                <ul>
+                  <li>
+                    Diseño único y adaptado a tus necesidades: Con un desarrollo personalizado, 
+                    tienes la libertad de crear un diseño único que refleje la identidad y la personalidad de tu marca. 
+                    Esto te permite destacarte entre la competencia y ofrecer una experiencia de usuario 
+                    memorable y atractiva.
+                  </li>
+                  <li>
+                    Funcionalidad personalizada: Un desarrollo personalizado te brinda la flexibilidad 
+                    para integrar funcionalidades específicas que son importantes para tu negocio. 
+                    Desde sistemas de gestión de contenido (CMS) personalizados hasta características 
+                    interactivas y herramientas de comercio electrónico, puedes crear una experiencia en 
+                    línea que se adapte perfectamente a tus objetivos y requisitos únicos.
+                  </li>
+                  <li>
+                    Optimización para SEO y rendimiento: Al desarrollar tu sitio web desde cero, puedes 
+                    asegurarte de que esté optimizado para los motores de búsqueda (SEO) y tenga un 
+                    rendimiento óptimo en términos de velocidad de carga y experiencia del usuario. 
+                    Esto puede mejorar tu visibilidad en línea y garantizar que tus visitantes tengan una 
+                    experiencia fluida y satisfactoria en tu sitio.
+                  </li>
+                  <li>
+                    Escalabilidad y adaptabilidad: Un sitio web desarrollado a medida puede crecer y evolucionar
+                     con tu negocio. Puedes realizar actualizaciones y modificaciones según sea necesario 
+                     para satisfacer las demandas cambiantes del mercado y las necesidades de tus clientes.
+                  </li>
+                  <li>
+                    Soporte técnico y mantenimiento personalizado: Al trabajar con un equipo de desarrollo 
+                    personalizado, puedes beneficiarte de un soporte técnico personalizado y un mantenimiento 
+                    continuo para garantizar que tu sitio web funcione de manera óptima en todo momento.
+                  </li>
+                </ul>
+                <p>
+                  Si bien los templates pueden ser una opción rápida y económica, un desarrollo personalizado 
+                  ofrece una solución a medida que puede marcar la diferencia en términos de calidad, 
+                  funcionalidad y éxito a largo plazo para tu negocio.
+                </p>
+
             </div>
           </li>
 
           <li>
-            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Qué servicios ofrecemos? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq2" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                Nuestra empresa de desarrollo de sitios web ofrece una amplia gama de servicios diseñados para ayudar a 
+                nuestros clientes a alcanzar sus objetivos en línea de manera efectiva y eficiente. 
+                Al combinar nuestra experiencia en tecnologías líderes como Symfony, Laravel, JavaScript, PHP y MySQL, 
+                creamos sitios web de alto rendimiento y funcionalidad excepcional. Algunos de nuestros servicios incluyen:
               </p>
+              <ul>
+                <li>
+                    Desarrollo de sitios web personalizados: Creamos sitios web a medida que se adaptan perfectamente a las necesidades y la identidad de cada cliente. Utilizamos Symfony, Laravel y otras tecnologías avanzadas para desarrollar soluciones únicas y robustas que destacan en el mercado en línea.
+                </li>
+                <li>
+                    Diseño web responsive: Nos especializamos en el diseño y desarrollo de sitios web responsivos que brindan una experiencia de usuario óptima en todos los dispositivos, desde computadoras de escritorio hasta dispositivos móviles y tabletas.
+                </li>
+                <li>
+                    Desarrollo de aplicaciones web: Además de sitios web estáticos, también desarrollamos aplicaciones web dinámicas y complejas que ofrecen funcionalidades avanzadas y una experiencia interactiva para los usuarios.
+                </li>
+                <li>
+                    Optimización para motores de búsqueda (SEO): Implementamos las mejores prácticas de SEO en todos nuestros proyectos para garantizar una mayor visibilidad en los motores de búsqueda y mejorar el posicionamiento en línea de nuestros clientes.
+                </li>
+                <li>
+                    Integración de sistemas y APIs: Con experiencia en integración de sistemas y APIs, podemos conectar tu sitio web con otras plataformas y servicios para mejorar la funcionalidad y la eficiencia operativa.
+                </li>
+                <li>
+                    Soporte técnico y mantenimiento: Ofrecemos servicios de soporte técnico continuo y mantenimiento para garantizar que tu sitio web funcione de manera óptima en todo momento y se mantenga actualizado con las últimas tecnologías y tendencias.
+                </li>
+              </ul>
+              <p>Ya sea que estés buscando crear un nuevo sitio web desde cero, actualizar un sitio existente o desarrollar una aplicación web personalizada, nuestro equipo de expertos está aquí para ayudarte a alcanzar tus objetivos en línea con soluciones de alta calidad y resultados excepcionales.</p>
             </div>
           </li>
 
           <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Cuál es nuestra política de privacidad y seguridad en relación con los datos del cliente y la información del sitio web? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq3" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                En nuestra empresa, nos tomamos muy en serio la privacidad y seguridad de los datos del cliente y la información del sitio web. Estamos comprometidos a proteger la confidencialidad, integridad y disponibilidad de todos los datos que gestionamos, incluida la información personal de nuestros clientes.
               </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                Nuestra política de privacidad se basa en los principios de transparencia, responsabilidad y respeto por la privacidad de nuestros clientes. Nos comprometemos a recopilar solo la información necesaria para proporcionar nuestros servicios y a utilizarla de manera ética y responsable.
               </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                Para garantizar la seguridad de los datos del cliente y la información del sitio web, implementamos una serie de medidas de seguridad técnicas, administrativas y físicas. Esto incluye el uso de tecnologías de encriptación avanzadas para proteger los datos en tránsito y en reposo, controles de acceso estrictos para limitar el acceso no autorizado a la información, y procedimientos de seguridad para prevenir la pérdida, el uso indebido o la alteración de los datos.
               </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                Además, cumplimos con todas las leyes y regulaciones de protección de datos aplicables, incluyendo el Reglamento General de Protección de Datos (GDPR) en la Unión Europea, y nos comprometemos a mantenernos al día con las mejores prácticas en materia de seguridad y privacidad de datos.
+              </p>
+              <p>
+                Nuestro objetivo es proporcionar a nuestros clientes la tranquilidad de saber que sus datos están seguros con nosotros. Si tienes alguna pregunta sobre nuestra política de privacidad y seguridad, no dudes en ponerte en contacto con nosotros. Estaremos encantados de proporcionarte más información y abordar cualquier inquietud que puedas tener.
               </p>
             </div>
           </li>
@@ -331,37 +425,7 @@
 
     <!-- ======= Our Team Section ======= -->
     <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Our Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member">
-              <img src="assets/img/team/foto_perfil.jpg" alt="">
-              <h4>Hernán Diego San Martín</h4>
-              <span>Php Developer</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-
-      </div>
+    <br/>
     </section><!-- End Our Team Section -->
 
     <!-- ======= Contact Us Section ======= -->
@@ -369,45 +433,41 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Contacto</h2>
+          <p>¡Nos encantaría escucharte! Si tienes alguna pregunta, consulta o simplemente quieres decir hola, no dudes en ponerte en contacto con nosotros. Completa el formulario a continuación y te responderemos lo antes posible.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
             <div class="contact-about">
-              <h3>Amoeba</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <h3>Artemisa</h3>
+              <p>
+              ¡Gracias por considerarnos! En Artemisa, nos apasiona crear experiencias web excepcionales. Si tienes alguna pregunta, consulta o simplemente quieres saludar, estamos aquí para ayudarte. ¡Esperamos saber de ti pronto!
+              </p>
               <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/hernan-diego-san-martin/" class="linkedin"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="info">
-              <div>
-                <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
 
-              <div>
-                <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
-              </div>
+            <div>
+              <i class="bi bi-envelope"></i>
+              <p><a href="mailto:her_san_martin@hotmail.com">her_san_martin@hotmail.com</a></p>
+            </div>
 
-              <div>
-                <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
+            <div>
+              <i class="bi bi-phone"></i>
+              <p><a href="https://wa.me/541133740098">+54 11 3374 0098</a></p>
+            </div>
+
 
             </div>
           </div>
-
+          <!--
           <div class="col-lg-5 col-md-12">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
@@ -429,17 +489,14 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-          </div>
+          </div> -->
 
         </div>
 
       </div>
     </section><!-- End Contact Us Section -->
 
-    <!-- ======= Map Section ======= -->
-    <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sbg!4v1579767901424!5m2!1sen!2sbg" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </section><!-- End Map Section -->
+
 
   </main><!-- End #main -->
 
@@ -447,14 +504,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Amoeba</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong><span>Artemisa</span></strong>. Todos los derechos reservados
       </div>
     </div>
   </footer><!-- End #footer -->
