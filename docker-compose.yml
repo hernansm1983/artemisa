@@ -1,0 +1,46 @@
+services:
+# Servidor Apache
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+    networks:
+      - network
+
+# Base de Datos (MySQL)
+  db:
+    image: mysql:5.7
+    container_name: curso-js-db
+    environment:
+      MYSQL_DATABASE: curso-js
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d 
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - network
+
+# PHPMYADMIN
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: curso-js-phpmyadmin
+    environment:
+      PMA_HOST: curso-js-db 
+      PMA_PORT: 3306
+    ports:
+      - "8080:80"
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
